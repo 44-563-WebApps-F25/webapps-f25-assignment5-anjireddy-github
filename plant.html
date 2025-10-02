@@ -221,5 +221,36 @@
     </div>
   </div>
 
+  <!-- Part 9: Bootstrap Form -->
+  <div class="container mt-5">
+    <h2>Plant Interest Form</h2>
+    
+    <form>
+      <!-- First form group: Email -->
+      <div class="form-group mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      
+      <!-- Second form group: Plant -->
+      <div class="form-group mb-3">
+        <label for="plantInput" class="form-label">Plant</label>
+        <input type="text" class="form-control" id="plantInput" placeholder="Enter your plant">
+      </div>
+      
+      <!-- Third form group: Newsletter checkbox -->
+      <div class="form-check mb-3">
+        <input class="form-check-input" type="checkbox" id="newsletterCheck">
+        <label class="form-check-label" for="newsletterCheck">
+          Sign up for newsletter?
+        </label>
+      </div>
+      
+      <!-- Submit button -->
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
 </body>
 </html>
